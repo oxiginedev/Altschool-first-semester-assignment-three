@@ -1,0 +1,138 @@
+body {
+    font-family: 'Lato', sans-serif;
+    background-color: #F5F8FA;
+}
+
+.navigation-inner {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    max-width: 72rem;
+    border-bottom: 1px solid #E0E6EA;
+    height: 73px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navigation-logo {
+    width: 200px;
+    height: 39px;
+}
+
+.navigation-link-group {
+    list-style-type: none;
+}
+
+.navigation-link {
+    display: inline-block;
+}
+
+.navigation-link-group > * + * {
+    margin-left: 1.5rem;
+}
+
+.checkout-container {
+    display: flex;
+    width: 100%;
+    height: 795px;
+    max-width: 892px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 0px 6px 6px 0px;
+    margin-top: 4rem;
+    box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.0491);
+    box-shadow: 0px 15px 35px 0px rgba(43, 64, 78, 0.0955);
+}
+
+.checkout-main {
+    flex: 1;
+    background-color: #FFF;
+}
+
+.checkout-main-inner {
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+
+.checkout-sidebar {
+    flex-shrink: 0;
+    width: 312px;
+    background: #1179BF;
+    padding-left: 40.5px;
+    padding-right: 40.5px;
+}
+
+.checkout-header {
+    border-bottom: 1px solid #E0E6EA;
+    padding: 0 3rem;
+}
+
+.checkout-header-text {
+    font-size: 30px;
+    line-height: 36px;
+    color: #1D2C3C;
+}
+
+.checkout-basic-header {
+    display: flex;
+    align-items: center;
+}
+
+.checkout-basic span {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    border: 2px solid #548BC5;
+    border-radius: 9999px;
+    color: #548BC5;
+}
+
+.checkout-basic p {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: -0.16px;
+    text-align: left;
+    margin-left: 1rem;
+}
+
+.wppusher-input {
+    display: inline-block;
+    border: 1px solid transparent;
+    outline: none;
+    padding: .5rem 1rem;
+    background-color: #EDEFF2;
+    margin-top: 4px;
+}
+
+.wppusher-input:focus {
+    outline: none;
+}
+
+.checkout-form-flex {
+    display: flex;
+    align-items: center;
+    gap: 4;
+}
+
+.checkout-button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background: #038E7D;
+    padding: 0.875rem 1rem;
+    color: #FFF;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid transparent;
+}
+
+.checkout-footer {
+    display: block;
+    text-align: center;
+    margin-top: 1rem;
+}
